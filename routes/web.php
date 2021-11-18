@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 \App\Facades\I18n::registerRoutes(function () {
     Route::get('/', function () {
-        return view('welcome');
+        return view('index');
     });
 });
